@@ -1,0 +1,250 @@
+   body
+  {
+  background-color: #A0AECD;
+  } 
+.logo img
+{
+    border-radius: 50%;
+    float: left;
+    border: 2px solid rgb(70, 70, 70);
+}
+.COLLEGE p
+{
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 130px;
+    color: #4130ff;
+    font-size: xx-large;
+    text-shadow: 1px 1px black 5px;
+}
+.address p
+{
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 33%;
+    color: #4130ff;
+    font-size: xx-large;
+    width: 50%;
+}
+.found img
+{
+    position: relative;
+    border-radius: 50%;
+    float: right;
+    border: 2px solid rgb(70, 70, 70);
+    height: 120px;
+    width: 7%;
+    right: 7%;
+}
+.head
+{
+    position: relative;
+    left: 3%;
+}
+.logo img:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.found img:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.link a
+{
+    position: relative;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: x-large;
+    color: rgb(18, 70, 255);
+    margin-right: 30px;
+    top: 80px;
+    left: 35%;
+}
+.link a:hover
+{
+    background-color: rgb(18, 70, 255);
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+}
+.slide
+{
+    font-size: x-large;
+    color:red;
+    position: relative;
+    top: 10px;
+}
+.vd iframe
+{  position: relative;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 30px;
+    top: 150px;
+}
+.dv iframe
+{  position: relative;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.footer{
+  position: relative;
+  width: 100%;
+  background: #20232e;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+.open-button {
+  background-color: #4c3fff;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer; 
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 150px;
+  border-radius: 30px 30px 10px 30px;
+  font-size: larger;
+} 
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.chat-header .close button
+{
+  position: relative;
+  width: 20px;
+  left: 150px;
+  border-radius: 50%;
+  border: none;
+}

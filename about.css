@@ -1,0 +1,169 @@
+.logo img
+{
+    position: relative;
+    float: left;
+    border: 2px solid rgb(255, 255, 255);
+    width:10%;
+    border-radius: 10px;
+    top: 10%;
+}
+.start p
+{
+    display: inline;
+    position: relative;
+    font-size: x-large;
+    left: 20px;
+    top: 10%;
+    text-align: center;
+}
+.head p
+{
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    font-size: xx-large;
+    top: 25%;
+    width: 20px;
+}
+.head
+{
+    background-color: rgb(146, 27, 8);
+    height: 10%;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+}
+.vs
+{
+    display: inline-block;
+    position: relative;
+    border: 3px solid transparent;
+    background-color: rgb(76, 112, 255);
+    color: #fff;
+    overflow: hidden;
+    border-radius: 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.his
+{
+    font-size: x-large;
+    text-align: justify;
+}
+.vis
+{
+    font-size: x-large;
+}
+.mis
+{
+    font-size: x-large;
+}
+
+.vis h2{
+    display: inline;
+    position: relative;
+    font-size: x-large;
+    left: 50%;
+    top: 10%;
+    text-decoration: underline;
+}
+.mis h2{
+    display: inline;
+    position: relative;
+    font-size: x-large;
+    left: 50%;
+    top: 10%;
+    text-decoration: underline;
+}
+.his h2{
+    
+    display: inline;
+    position: relative;
+    font-size: x-large;
+    left: 50%;
+    top: 10%;
+    text-decoration: underline;
+}
+.vis .p p
+{
+    border: 2px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(146, 27, 8);
+    font-weight: bold;
+}
+.mis .p2 p
+{
+    border: 2px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(146, 27, 8);
+    font-weight: bold;
+}
+.k
+{
+    position: relative;
+    height: 10%;
+    top: 10%;
+}
+.m
+{
+    position: relative;
+    height: 10%;
+    top: 10%;
+}
+.h
+{
+    position: relative;
+    height: 10%;
+    top: 10%;
+}
+.jk p
+{
+    color: rgb(146, 27, 8);
+    font-weight: bold;
+}
+/* .BACK a
+{
+   
+    text-decoration: none;
+    
+   
+    text-align: center;
+  
+    /* 
+   
+    color: rgb(18, 70, 255);
+    margin-right: 30px;
+  
+    left: 35%;
+} */
+.BACK a{
+    position: relative;
+    font-size: x-large;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: #fff;
+    padding: 10px 20px;
+    top: 25px; 
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 1px black;
+    color: royalblue;
+}
+.BACK
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 5%;
+
+}
+.BACK a:hover
+{
+    background-color: rgb(18, 70, 255);
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+}
+
