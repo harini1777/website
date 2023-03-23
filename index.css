@@ -13,7 +13,7 @@
     display: inline;
     position: relative;
     top: 20px;
-    left: 130px;
+    left: 100px;
     color: #4130ff;
     font-size: xx-large;
     text-shadow: 1px 1px black 5px;
@@ -41,7 +41,7 @@
 .head
 {
     position: relative;
-    left: -3%;
+    left: 3%;
 }
 .logo img:hover
 {
